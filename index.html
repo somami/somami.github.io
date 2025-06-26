@@ -46,11 +46,25 @@
       border-top: 1px solid #ddd;
     }
     .term-title {
-      font-size: 1.3em; color: #004085;
+      font-size: 1.4em;
+      color: #003366;
+      font-weight: bold;
+      margin-bottom: 0.2em;
     }
-    .term-reading { font-style: italic; color: #666; }
-    .term-definition { margin: .5rem 0; }
-    .term-context { color: #555; font-size: 0.95em; }
+    .term-reading {
+      font-style: italic;
+      color: #777;
+      margin-bottom: 0.5em;
+    }
+    .term-definition,
+    .term-context {
+      margin-bottom: 0.5em;
+      line-height: 1.6;
+    }
+    .term-definition strong,
+    .term-context strong {
+      color: #004085;
+    }
   </style>
 </head>
 <body>
@@ -114,14 +128,14 @@
     <div class="term" id="kikouzu">
       <div class="term-title">機構図</div>
       <div class="term-reading">（きこうず）</div>
-      <div class="term-definition">組織の構造・関係性を視覚的に表した図。組織図とも呼ばれる。</div>
-      <div class="term-context">各課や部局、委員会などの上下関係・所掌業務の整理を目的に使われる。人事異動や体制変更の際に更新され、庁内外での説明資料としても使用される。</div>
+      <div class="term-definition"><strong>意味：</strong>組織の構造・関係性を視覚的に表した図。組織図とも呼ばれる。</div>
+      <div class="term-context"><strong>自治体においては：</strong>各課や部局、委員会などの上下関係・所掌業務の整理を目的に使われる。人事異動や体制変更の際に更新され、庁内外での説明資料としても使用される。</div>
     </div>
     <div class="term" id="kisai">
       <div class="term-title">起債</div>
       <div class="term-reading">（きさい）</div>
-      <div class="term-definition">地方自治体が資金を調達するために行う借入れ行為。主に地方債の発行を指す。</div>
-      <div class="term-context">大規模事業（公共施設整備・災害復旧等）を行う際の財源として使われる。地方債の発行には、原則として総務省の許可や協議が必要。</div>
+      <div class="term-definition"><strong>意味：</strong>地方自治体が資金を調達するために行う借入れ行為。主に地方債の発行を指す。</div>
+      <div class="term-context"><strong>自治体においては：</strong>大規模事業（公共施設整備・災害復旧等）を行う際の財源として使われる。地方債の発行には、原則として総務省の許可や協議が必要。</div>
     </div>
   </div>
 
@@ -130,8 +144,8 @@
     <div class="term" id="shikou">
       <div class="term-title">施行</div>
       <div class="term-reading">（しこう）</div>
-      <div class="term-definition">法律や条例などの規定を、実際に効力を持たせて運用し始めること。</div>
-      <div class="term-context">条例や規則を制定後、「○年○月○日から施行する」といった表現で、具体的な運用開始時期が明記される。施行日は広報等で周知される。</div>
+      <div class="term-definition"><strong>意味：</strong>法律や条例などの規定を、実際に効力を持たせて運用し始めること。</div>
+      <div class="term-context"><strong>自治体においては：</strong>条例や規則を制定後、「○年○月○日から施行する」といった表現で、具体的な運用開始時期が明記される。施行日は広報等で周知される。</div>
     </div>
   </div>
 
@@ -140,8 +154,8 @@
     <div class="term" id="tantouka">
       <div class="term-title">担当課</div>
       <div class="term-reading">（たんとうか）</div>
-      <div class="term-definition">ある業務や案件について実務的に対応を行う課。</div>
-      <div class="term-context">市民からの問い合わせや業者対応など、実務上「担当課」の名前で案内されることが多い。原課と同義で使われる場合もあるが、状況により異なる場合もある。</div>
+      <div class="term-definition"><strong>意味：</strong>ある業務や案件について実務的に対応を行う課。</div>
+      <div class="term-context"><strong>自治体においては：</strong>市民からの問い合わせや業者対応など、実務上「担当課」の名前で案内されることが多い。原課と同義で使われる場合もあるが、状況により異なる場合もある。</div>
     </div>
   </div>
 
@@ -150,8 +164,8 @@
     <div class="term" id="hittouka">
       <div class="term-title">筆頭課</div>
       <div class="term-reading">（ひっとうか）</div>
-      <div class="term-definition">複数の課が関係する業務において、中心的な立場をとる課のこと。</div>
-      <div class="term-context">合同事業や調整業務などで「筆頭課」として先導役を担う課。例えば、複数課が関与するイベントでは筆頭課が全体進行や対外調整を担う。</div>
+      <div class="term-definition"><strong>意味：</strong>複数の課が関係する業務において、中心的な立場をとる課のこと。</div>
+      <div class="term-context"><strong>自治体においては：</strong>合同事業や調整業務などで「筆頭課」として先導役を担う課。例えば、複数課が関与するイベントでは筆頭課が全体進行や対外調整を担う。</div>
     </div>
   </div>
 
@@ -160,8 +174,8 @@
     <div class="term" id="youchi">
       <div class="term-title">用地</div>
       <div class="term-reading">（ようち）</div>
-      <div class="term-definition">建物や施設などの建設・整備のために必要な土地。</div>
-      <div class="term-context">道路、公園、公共施設などの整備時に取得・管理される。用地買収や地権者との交渉が必要で、都市計画や土木部門が所管することが多い。</div>
+      <div class="term-definition"><strong>意味：</strong>建物や施設などの建設・整備のために必要な土地。</div>
+      <div class="term-context"><strong>自治体においては：</strong>道路、公園、公共施設などの整備時に取得・管理される。用地買収や地権者との交渉が必要で、都市計画や土木部門が所管することが多い。</div>
     </div>
   </div>
 
@@ -170,8 +184,8 @@
     <div class="term" id="reiki">
       <div class="term-title">例規</div>
       <div class="term-reading">（れいき）</div>
-      <div class="term-definition">条例、規則、訓令、要綱、要領など、自治体内で制定された法令・内部規程の総称。</div>
-      <div class="term-context">実際の行政運用における「ルールブック」として活用される。職員の出張旅費に関する規程や公印の取り扱い方法など。検索や管理のための例規データベースが整備されている自治体も多い。</div>
+      <div class="term-definition"><strong>意味：</strong>条例、規則、訓令、要綱、要領など、自治体内で制定された法令・内部規程の総称。</div>
+      <div class="term-context"><strong>自治体においては：</strong>実際の行政運用における「ルールブック」として活用される。職員の出張旅費に関する規程や公印の取り扱い方法など。検索や管理のための例規データベースが整備されている自治体も多い。</div>
     </div>
   </div>
 
@@ -180,8 +194,8 @@
     <div class="term" id="ieee">
       <div class="term-title">IEEE</div>
       <div class="term-reading">（あいいーいーいー）</div>
-      <div class="term-definition">「Institute of Electrical and Electronics Engineers」の略。電子工学、電気工学、通信、情報技術などの分野で世界的に影響力を持つ米国の専門技術者団体。</div>
-      <div class="term-context">IEEEによって策定されたネットワーク機器やセキュリティに関する技術標準（例：IEEE 802.11＝Wi-Fi規格）が、自治体ネットワーク機器の調達や設計基準などに関係する場面がある。</div>
+      <div class="term-definition"><strong>意味：</strong>「Institute of Electrical and Electronics Engineers」の略。電子工学、電気工学、通信、情報技術などの分野で世界的に影響力を持つ米国の専門技術者団体。</div>
+      <div class="term-context"><strong>自治体においては：</strong>IEEEによって策定されたネットワーク機器やセキュリティに関する技術標準（例：IEEE 802.11＝Wi-Fi規格）が、自治体ネットワーク機器の調達や設計基準などに関係する場面がある。</div>
     </div>
   </div>
 
@@ -190,8 +204,8 @@
     <div class="term" id="lbo">
       <div class="term-title">LBO</div>
       <div class="term-reading">（えるびーおー）</div>
-      <div class="term-definition">「Local Break Out」の略。クラウドやインターネットへの接続を、中央集約せずに各拠点で直接行う方式。</div>
-      <div class="term-context">ガバメントクラウドやSaaS導入にあたり、庁舎から直接インターネットに出る構成としてLBOが注目されている。セキュリティ対策や三層分離の見直しとセットで議論されることが多い。</div>
+      <div class="term-definition"><strong>意味：</strong>「Local Break Out」の略。クラウドやインターネットへの接続を、中央集約せずに各拠点で直接行う方式。</div>
+      <div class="term-context"><strong>自治体においては：</strong>ガバメントクラウドやSaaS導入にあたり、庁舎から直接インターネットに出る構成としてLBOが注目されている。セキュリティ対策や三層分離の見直しとセットで議論されることが多い。</div>
     </div>
   </div>
 
@@ -200,8 +214,8 @@
     <div class="term" id="mhz60">
       <div class="term-title">60MHz帯</div>
       <div class="term-reading">（ろくじゅうめがへるつたい）</div>
-      <div class="term-definition">無線通信に使われる電波周波数帯の一つで、防災行政無線など公共目的に利用されている。</div>
-      <div class="term-context">市町村防災行政無線（同報系）で長らく使用されてきた帯域。</div>
+      <div class="term-definition"><strong>意味：</strong>無線通信に使われる電波周波数帯の一つで、防災行政無線など公共目的に利用されている。</div>
+      <div class="term-context"><strong>自治体においては：</strong>市町村防災行政無線（同報系）で長らく使用されてきた帯域。</div>
     </div>
   </div>
 

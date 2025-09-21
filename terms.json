@@ -1,11 +1,11 @@
 [
   {
-    "id": "kikouzu",
-    "title": "機構図",
-    "reading": "きこうず",
-    "definition": "組織の構造・関係性を視覚的に表した図。組織図とも呼ばれる。",
-    "context": "各課や部局、委員会などの上下関係・所掌業務の整理を目的に使われる。人事異動や体制変更の際に更新され、庁内外での説明資料としても使用される。",
-    "initial": "か行"
+    "id": "test",
+    "title": "テスト",
+    "reading": "てすと",
+    "definition": "definitionテスト",
+    "context": "contextテスト",
+    "initial": "た行"
   },
   {
     "id": "kisai",
@@ -16,11 +16,11 @@
     "initial": "か行"
   },
   {
-    "id": "test",
-    "title": "テスト",
-    "reading": "てすと",
-    "definition": "definitionテスト",
-    "context": "contextテスト",
-    "initial": "た行"
+    "id": "kikouzu",
+    "title": "機構図",
+    "reading": "きこうず",
+    "definition": "組織の構造・関係性を視覚的に表した図。組織図とも呼ばれる。",
+    "context": "各課や部局、委員会などの上下関係・所掌業務の整理を目的に使われる。人事異動や体制変更の際に更新され、庁内外での説明資料としても使用される。",
+    "initial": "か行"
   }
 ]

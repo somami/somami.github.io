@@ -15,4 +15,12 @@
     "context": "大規模事業（公共施設整備・災害復旧等）を行う際の財源として使われる。地方債の発行には、原則として総務省の許可や協議が必要。",
     "initial": "か行"
   }
+  {
+    "id": "test",
+    "title": "テスト",
+    "reading": "てすと",
+    "definition": "definitionテスト",
+    "context": "contextテスト",
+    "initial": "た行"
+  }
 ]
